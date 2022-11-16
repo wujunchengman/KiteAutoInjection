@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Version>0.0.2</Version>
+	  <Authors>吴俊城</Authors>
+	  <Description>自动依赖注入</Description>
+	  <PackageReleaseNotes>将依赖注入时扫描的接口文件抽离到单独的项目</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KiteAutoInjection.Interfaces" Version="1.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

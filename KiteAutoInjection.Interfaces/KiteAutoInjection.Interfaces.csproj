@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <RootNamespace>KiteAutoInjection</RootNamespace>
+	  <Authors>吴俊城</Authors>
+	  <Description>自动注入时扫描的接口</Description>
+  </PropertyGroup>
+
+</Project>
